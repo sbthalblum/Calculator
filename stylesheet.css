@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.header {
+    height: 12%;
+    width: auto;
+}
+.container {
+    display: flex;
+    height: 500px;
+    width: auto;
+    justify-content: center;
+}
+.calculator-container {
+    height: 100%;
+    width: 375px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

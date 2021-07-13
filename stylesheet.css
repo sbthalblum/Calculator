@@ -20,6 +20,7 @@ html, body {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    background-color: #737373;
 }
 .box {
     display: grid;
@@ -33,8 +34,9 @@ html, body {
     grid-column-end: end;
     grid-row-start: 1;
     grid-row-end: span 1;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
+    background-color: hsl(0, 0%, 97%);
 }
 .clear-all {
     height: 85%;
@@ -43,32 +45,35 @@ html, body {
     grid-column-end: span 2;
     grid-row-start: 2;
     grid-row-end: span 1;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 40px;
     justify-self: center;
     align-self: end;
     display: table;
     text-align: center;
+    background-color: #e6e6e6;
 }
 .top-button {
     height: 85%;
     width: 85%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     justify-self: center;
     align-self: end;
     display: table;
     text-align: center;
+    background-color: #e6e6e6
 }
 .button {
     height: 85%;
     width: 85%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     justify-self: center;
     align-self: end;
     display: table;
     text-align: center;
+    background-color: #e6e6e6
 }
 .equals {
     height: 85%;
@@ -77,14 +82,49 @@ html, body {
     grid-column-end: span 2;
     grid-row-start: 6;
     grid-row-end: span 1;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 40px;
     justify-self: center;
     align-self: end;
     display: table;
     text-align: center;
+    background-color: #e6e6e6
 }
 span {
     display: table-cell;
     vertical-align: middle;
-  }
+    font-size: 25px;
+    font-family: monospace, "Courier New", serif;
+}
+.clear-all:hover {
+    cursor: pointer;
+    align-self: center;
+    background-color: #ffb3b3;
+}
+.top-button:hover {
+    cursor: pointer;
+    align-self: center;
+    background-color: #ffbf80;
+}
+.button:hover {
+    cursor: pointer;
+    align-self: center;
+    background-color: #ffffcc;
+}
+.equals:hover {
+    cursor: pointer;
+    align-self: center;
+    background-color: #b3ffb3;
+}
+#multiply:hover {
+    background-color: #ffbf80;
+}
+#minus:hover {
+    background-color: #ffbf80;
+}
+#plus:hover {
+    background-color: #ffbf80;
+}
+#clear:hover {
+    background-color: #cc99ff;
+}

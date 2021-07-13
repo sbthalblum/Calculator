@@ -47,6 +47,8 @@ html, body {
     border-radius: 40px;
     justify-self: center;
     align-self: end;
+    display: table;
+    text-align: center;
 }
 .top-button {
     height: 85%;
@@ -55,6 +57,8 @@ html, body {
     border-radius: 50%;
     justify-self: center;
     align-self: end;
+    display: table;
+    text-align: center;
 }
 .button {
     height: 85%;
@@ -63,6 +67,8 @@ html, body {
     border-radius: 50%;
     justify-self: center;
     align-self: end;
+    display: table;
+    text-align: center;
 }
 .equals {
     height: 85%;
@@ -75,4 +81,10 @@ html, body {
     border-radius: 40px;
     justify-self: center;
     align-self: end;
+    display: table;
+    text-align: center;
 }
+span {
+    display: table-cell;
+    vertical-align: middle;
+  }

@@ -13,8 +13,66 @@ html, body {
     justify-content: center;
 }
 .calculator-container {
+    display: flex;
     height: 100%;
     width: 375px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: grid;
+    height: 95%;
+    width: 95%;
+    grid-template-columns: repeat(4, 89.06px);
+    grid-template-rows: repeat(6, 79.16px);
+}
+.calculation-area {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.clear-all {
+    height: 85%;
+    width: 92%;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    border: 1px solid black;
+    border-radius: 40px;
+    justify-self: center;
+    align-self: end;
+}
+.top-button {
+    height: 85%;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: end;
+}
+.button {
+    height: 85%;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: end;
+}
+.equals {
+    height: 85%;
+    width: 92%;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    border: 1px solid black;
+    border-radius: 40px;
+    justify-self: center;
+    align-self: end;
 }

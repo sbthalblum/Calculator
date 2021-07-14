@@ -37,6 +37,7 @@ html, body {
     border: 2px solid black;
     border-radius: 20px;
     background-color: hsl(0, 0%, 97%);
+    display: flex;
 }
 .clear-all {
     height: 85%;
@@ -127,4 +128,16 @@ span {
 }
 #clear:hover {
     background-color: #cc99ff;
+}
+.number-area {
+    height: 75%;
+    width: 90%;
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: end;
+    display: table;
+}
+#calc-area {
+    font-size: 30px;
 }

@@ -141,3 +141,18 @@ span {
 #calc-area {
     font-size: 30px;
 }
+.operation {
+    height: 85%;
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: end;
+    display: table;
+    text-align: center;
+    background-color: #e6e6e6
+}
+.operation:hover {
+    cursor: pointer;
+    align-self: center;
+}
